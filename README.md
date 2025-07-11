@@ -4,15 +4,19 @@ This project focuses on data analysis of a messy and raw dataset from EA Sports'
 
 ## Dataset Overview
 
-The dataset, sourced from [Kaggle](https://www.kaggle.com/), contains detailed information about players in EA Sports' FIFA 21. It includes **18,979 rows** and **77 columns**, featuring attributes such as player positions, wages, value, release clauses, and many more performance and contract details.
+**DATA** - The dataset, sourced from [Kaggle](https://www.kaggle.com/), contains detailed information about players in EA Sports' FIFA 21. It includes **18,979 rows** and **77 columns**, featuring attributes such as player positions, wages, value, release clauses, and many more performance and contract details.
 
 ## Data Analysis Steps
+**DATA CLEANING AND ANALYSIS** - Understanding the dataset is a crucial step in the data analysis process. I took time to understand the dataset and set up series of questions that could be answered by the dataset. Since the dataset is in a very raw form it requires a very through data cleaning.
 
-Understanding the dataset is a crucial step in the data analysis process. I took time to understand the dataset and set up series of questions that could be answered by the dataset. Since the dataset is in a very raw form it requires a very through data cleaning.
+## QUESTIONS
 
-Here are the steps I took in cleaning the dataset:
+## PROCESS
 
+Before questions can be answered it is important to understand that dataset must be as clean and comprehensive as possible to help. 
 
+### Data Cleaning
+Here are the steps below in cleaning the dataset:
 * Removed duplicate entries
 * Handled missing values
 * Converted data types appropriately
