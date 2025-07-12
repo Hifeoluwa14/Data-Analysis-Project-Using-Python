@@ -17,13 +17,28 @@ Before questions can be answered it is important to understand that dataset must
 
 ### Data Cleaning
 Here are the steps below in cleaning the dataset:
-* Removed duplicate entries
-* Handled missing values
-* Converted data types appropriately
-* Parsed and normalized monetary values (e.g., wages, release clauses)
-* Extracted and cleaned player attributes
-* Standardized text formatting
 
----
+* Split Column- I split the Team and Contract column into clubs and contract
+* Stanardize Column- I converted the height column from feet and inches to inches so there is consitency in the column
+* - I also standadize the weight column the only the weight and removed lbs so it can be used in calculation
+  - I removed the stars after the rating for the following columns W/F, SM and IR
+* normalized monetary values - I converted the wage, value and release clause column into pure numerical values, removing the K, M
+*  Rename Column- I renamed some columns to make it easier for individuals to understand what a column represents
+*  Dropped Column- I dropped a few columns e.g photourl, playerurl
+*  Standadize Column Name- I convert all column name to small letter to allow consistency in the data
+*  Dropped Duplicate - I checked if we have duplicated rows and dropped them
 
-Let me know if you'd like to add images, code snippets, or a full table of contents.
+  ### Exploratory Data Analysis
+  After Cleaning the data I then proceeded to answer some questions
+  1. Club with maximum number of players
+  2. Club with maximum number of players
+  3. Club with youngest average players
+  4. Team with oldest average players
+  5. Check for the most valuable player
+  6. list of underpaid players
+  7. does attributes like height and strength correlate with player's overall_rating
+  8. does player wage correlate with age
+  9. Correlation between 'overall_rating', 'player_potential', 'value', 'release_clause', 'wage'
+  10. nation with the maximum best players with criteria that best players is considered to over overall rating of 80 and above
+  11. What position is most paid and least paid
+  12. 
