@@ -1,44 +1,105 @@
-# Data Analysis with Python
+# 📊 FIFA 21 Player Data Analysis with Python  
 
-This project focuses on data analysis of a messy and raw dataset from EA Sports' FIFA 21 using Python.
+**Description**: A comprehensive data analysis project cleaning and exploring EA Sports' FIFA 21 player dataset to uncover insights about player attributes, wages, and performance metrics.  
 
-## Dataset Overview
+---
 
-**DATA** - The dataset, sourced from [Kaggle](https://www.kaggle.com/), contains detailed information about players in EA Sports' FIFA 21. It includes **18,979 rows** and **77 columns**, featuring attributes such as player positions, wages, value, release clauses, and many more performance and contract details.
+##  Table of Contents  
+- [Dataset Overview](#-dataset-overview)  
+- [Key Questions](#-key-questions)  
+- [Process](#-process)  
+  - [Data Cleaning](#data-cleaning)  
+  - [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)  
+- [Key Findings](#-key-findings)  
+---
 
-## Data Analysis Steps
-**DATA CLEANING AND ANALYSIS** - Understanding the dataset is a crucial step in the data analysis process. I took time to understand the dataset and set up series of questions that could be answered by the dataset. Since the dataset is in a very raw form it requires a very through data cleaning.
+## 📁 Dataset Overview  
+- **Source**: [Kaggle](https://www.kaggle.com/)  
+- **Size**: 18,979 players × 77 attributes  
+- **Features**: Player positions, wages, market value, release clauses, overall_rating, potential, height, weight.
 
-## QUESTIONS
+---
 
-## PROCESS
+## Key Questions  
+1. Which club has the most players? The fewest?  
+2. Which club has the youngest/oldest average age?  
+3. Who is the most valuable player?  
+4. Which players are underpaid relative to their value?  
+5. Do physical attributes (height/strength) correlate with `overall_rating`?  
+6. Does wage correlate with age?  
+7. What’s the relationship between `overall_rating`, `potential`, `value`, and `wage`?  
+8. Which nation has the most "best players" (rating ≥ 80)?  
+9. Which position earns the highest/lowest wages?  
 
-Before questions can be answered it is important to understand that dataset must be as clean and comprehensive as possible to help. 
+---
 
-### Data Cleaning
-Here are the steps below in cleaning the dataset:
+##  Process  
 
-* Split Column- I split the Team and Contract column into clubs and contract
-* Stanardize Column- I converted the height column from feet and inches to inches so there is consitency in the column
-* - I also standadize the weight column the only the weight and removed lbs so it can be used in calculation
-  - I removed the stars after the rating for the following columns W/F, SM and IR
-* normalized monetary values - I converted the wage, value and release clause column into pure numerical values, removing the K, M
-*  Rename Column- I renamed some columns to make it easier for individuals to understand what a column represents
-*  Dropped Column- I dropped a few columns e.g photourl, playerurl
-*  Standadize Column Name- I convert all column name to small letter to allow consistency in the data
-*  Dropped Duplicate - I checked if we have duplicated rows and dropped them
+### **Data Cleaning**  
+- **Split Columns**: Separated `Team` and `Contract` into distinct columns (e.g., `club`, `contract_type`).  
+- **Standardized Units**:  
+  - Converted `height` from feet/inches to inches.  
+  - Removed "lbs" from `weight` for numerical analysis.  
+- **Normalized Monetary Values**:  
+  - Replaced "K" and "M" in `wage`, `value`, and `release_clause` with numerical multipliers (e.g., "€5K" → 5000).  
+- **Cleaned Ratings**: Removed stars (★) from `W/F`, `SM`, and `IR` columns.  
+- **Consistency**:  
+  - Renamed columns for clarity (e.g., `IR` → `injury_rating`).  
+  - Lowercased all column names.  
+- **Removed Noise**: Dropped irrelevant columns (`photo_url`, `player_url`) and duplicates.  
 
-  ### Exploratory Data Analysis
-  After Cleaning the data I then proceeded to answer some questions
-  1. Club with maximum number of players
-  2. Club with maximum number of players
-  3. Club with youngest average players
-  4. Team with oldest average players
-  5. Check for the most valuable player
-  6. list of underpaid players
-  7. does attributes like height and strength correlate with player's overall_rating
-  8. does player wage correlate with age
-  9. Correlation between 'overall_rating', 'player_potential', 'value', 'release_clause', 'wage'
-  10. nation with the maximum best players with criteria that best players is considered to over overall rating of 80 and above
-  11. What position is most paid and least paid
-  12. 
+### **Exploratory Data Analysis (EDA)**  
+- Used visualizations (histograms, scatter plots, heatmaps) to explore:  
+  - Distributions of wages, ages, and ratings.  
+  - Correlations between attributes (e.g., `height` vs. `strength`).  
+  - Club/nationality-based trends.  
+
+---
+
+## 🔍 Key Findings  
+*(Summarize your most interesting insights here. Example:)*  
+- **Top Club**: "Manchester City" has the most players (X), while "XYZ" has the fewest (Y).  
+- **Wage Disparity**: Player XYZ is underpaid (wage = €A, rating = B).  
+- **Physical Traits**: Taller players show a weak/moderate correlation (R² = X) with `overall_rating`.  
+- **Highest-Paid Position**: Strikers (ST) earn ~€X on average; goalkeepers (GK) earn the least.  
+
+*(Add screenshots of key charts if possible!)*  
+
+---
+
+## 📦 Dependencies  
+- Python 3.8+  
+- Libraries:  
+  ```bash
+  pandas numpy matplotlib seaborn
+  ```
+  Install with:  
+  ```bash
+  pip install -r requirements.txt
+  ```
+
+---
+
+## 🚀 How to Run  
+1. Clone the repository:  
+   ```bash
+   git clone [your-repo-url]
+   ```
+2. Run the Jupyter notebook:  
+   ```bash
+   jupyter notebook fifa21_analysis.ipynb
+   ```
+
+---
+
+## 🤝 Contributing  
+Pull requests welcome! For major changes, open an issue first.  
+
+---
+
+### **Improvements Over Original**  
+✅ **Added Structure**: Clear sections with emojis for readability.  
+✅ **Reproducibility**: Added "Dependencies" and "How to Run" for users to replicate your analysis.  
+✅ **Findings Section**: Highlights impact (original lacked summary).  
+✅ **Removed Redundancy**: Merged repetitive "Questions" and "Process" sections.  
+❌ **Removed**: Unnecessary bullet points (e.g., "DATA CLEANING AND ANALYSIS" preamble).
