@@ -1,4 +1,4 @@
-# 📊 FIFA 21 Player Data Analysis with Python  
+# FIFA 21 Player Data Analysis with Python  
 
 **Description**: A comprehensive data analysis project cleaning and exploring EA Sports' FIFA 21 player dataset to uncover insights about player attributes, wages, and performance metrics.  
 
@@ -21,32 +21,35 @@
 ---
 
 ## Key Questions  
-1. Which club has the most players? The fewest?  
-2. Which club has the youngest/oldest average age?  
-3. Who is the most valuable player?  
-4. Which players are underpaid relative to their value?  
-5. Do physical attributes (height/strength) correlate with `overall_rating`?  
-6. Does wage correlate with age?  
-7. What’s the relationship between `overall_rating`, `potential`, `value`, and `wage`?  
-8. Which nation has the most "best players" (rating ≥ 80)?  
-9. Which position earns the highest/lowest wages?  
+1. Which club has the most players?
+2. Which club has the fewest players? 
+3. Which club has the youngest average age?
+4. Which club has the oldest average age?
+5. Who is the most valuable player?  
+6. Which players are underpaid relative to their value?  
+7. Do physical attributes (height/strength) correlate with `overall_rating`?  
+8. Does wage correlate with age?  
+9. What’s the relationship between `overall_rating`, `potential`, `value`, and `wage`?  
+10. Which nation has the most "best players" (rating ≥ 80)?  
+11. Which position earns the lowest wages?
+12. Which position earns the lowest wages?  
 
 ---
 
 ##  Process  
 
 ### **Data Cleaning**  
-- **Split Columns**: Separated `Team` and `Contract` into distinct columns (e.g., `club`, `contract_type`).  
+- **Split Columns**: Separated `Team` and `Contract` into  `club` and `contract_type`.  
 - **Standardized Units**:  
   - Converted `height` from feet/inches to inches.  
   - Removed "lbs" from `weight` for numerical analysis.  
 - **Normalized Monetary Values**:  
-  - Replaced "K" and "M" in `wage`, `value`, and `release_clause` with numerical multipliers (e.g., "€5K" → 5000).  
+  - Replaced "K" and "M" in `wage`, `value`, and `release_clause` with numerics(e.g., "€5K" → 5000).  
 - **Cleaned Ratings**: Removed stars (★) from `W/F`, `SM`, and `IR` columns.  
-- **Consistency**:  
-  - Renamed columns for clarity (e.g., `IR` → `injury_rating`).  
-  - Lowercased all column names.  
-- **Removed Noise**: Dropped irrelevant columns (`photo_url`, `player_url`) and duplicates.  
+- **Renamed columns**: Renamed a few columns for easier undertstanding of what it represents
+- **Standardize Column names** - Lowercases all column names  
+- **Removed Columns**: Dropped irrelevant columns (`photo_url`, `player_url`) and duplicates.
+- **Removed Duplicates** - Dropped duplicated rows from dataset  
 
 ### **Exploratory Data Analysis (EDA)**  
 - Used visualizations (histograms, scatter plots, heatmaps) to explore:  
