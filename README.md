@@ -27,10 +27,10 @@
 4. Which club has the oldest average age?
 5. Who is the most valuable player?  
 6. Which players are underpaid relative to their value?
-9. What’s the relationship between `overall_rating`, `potential`, `value`, and `wage`?  
-10. Which nation has the most "best players" (rating ≥ 80)?  
-11. Which position earns the lowest wages?
-12. Which position earns the lowest wages?  
+7. What’s the relationship between `overall_rating`, `potential`, `value`, and `wage`?  
+8. Which nation has the most "best players" (rating ≥ 80)?  
+9. Which position earns the lowest wages?
+10. Which position earns the highest wages?  
 
 ---
 
@@ -56,11 +56,42 @@
   - Club/nationality-based trends.  
 
 ---
+## Questions
+1. Which club has the most players?
+<img width="225" height="355" alt="Club with most players" src="https://github.com/user-attachments/assets/3e3e0494-9358-48bc-89fc-1244066876f9" />
+
+
+2. Which club has the fewest players?
+<img width="77" height="181" alt="Club with fewest players" src="https://github.com/user-attachments/assets/86d389af-7784-45a2-ba9f-48ac98199b76" />
+
+3. Which club has the youngest average age?
+<img width="168" height="114" alt="youngest average age" src="https://github.com/user-attachments/assets/b1ed70c5-af1d-48ee-8ec5-b575790db786" />
+
+4. Which club has the oldest average age?
+<img width="101" height="46" alt="Oldest Average Age" src="https://github.com/user-attachments/assets/ef46b359-92e0-4f17-89a1-5c421eb86eeb" />
+
+5. Who is the most valuable player?
+<img width="132" height="49" alt="Most Valuable Player" src="https://github.com/user-attachments/assets/4fe331d3-4468-4d5c-ac20-64e7c2f2bfd0" />
+
+6. Which players are underpaid relative to their value?
+<img width="202" height="296" alt="Underpaid Players" src="https://github.com/user-attachments/assets/63846790-223e-4b72-91b7-f6c893ad0287" />
+
+7. What’s the relationship between overall_rating, value, and wage?
+<img width="242" height="98" alt="Relationship" src="https://github.com/user-attachments/assets/661f0f76-edda-4f6d-b277-a3c0fb968fdb" />
+
+8. Which nation has the most "best players" (rating ≥ 80)?
+<img width="127" height="44" alt="Best Players" src="https://github.com/user-attachments/assets/85a36d37-1707-441b-9740-0a7fc8723611" />
+
+9. Which position earns the lowest wages?
+<img width="160" height="46" alt="Least Paid" src="https://github.com/user-attachments/assets/3fac1433-da69-41c5-a413-52e5265b8c28" />
+
+10. Which position earns the highest wages?  
+<img width="167" height="50" alt="Most Paid" src="https://github.com/user-attachments/assets/c52a200b-cf21-4f43-9228-165947b2e49b" />
+
 
 ## 🔍 Key Findings  
 *(Summarize your most interesting insights here. Example:)*  
 - **Top Club**: "Manchester City" has the most players (X), while "XYZ" has the fewest (Y).
-<img width="71" height="192" alt="Image" src="https://github.com/user-attachments/assets/7f441b78-d4e0-408b-8ba0-24c128b9863b" />
 - **Wage Disparity**: Player XYZ is underpaid (wage = €A, rating = B).  
 - **Physical Traits**: Taller players show a weak/moderate correlation (R² = X) with `overall_rating`.  
 - **Highest-Paid Position**: Strikers (ST) earn ~€X on average; goalkeepers (GK) earn the least.  
