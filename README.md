@@ -90,10 +90,11 @@
 
 
 ## 🔍 Key Findings  
-*(Summarize your most interesting insights here. Example:)*  
-- **Top Club**: "Manchester City" has the most players (X), while "XYZ" has the fewest (Y).
-- **Wage Disparity**: Player XYZ is underpaid (wage = €A, rating = B).  
-- **Physical Traits**: Taller players show a weak/moderate correlation (R² = X) with `overall_rating`.  
-- **Highest-Paid Position**: Strikers (ST) earn ~€X on average; goalkeepers (GK) earn the least.  
+- **Most Valuable Player**: The most valuable player in this dataset is Mbappe.
+- **Wage Disparity**: There are couple of players with relatively high value that earn really little compare to thier counterpat.  
+- **Overall rating, value, wage**: The relationship between these variables is high.
+- **Best Team**: The nation with the top players based on overall rating is Spain.
+- **Highest-Paid Position**: Strikers (ST) earn most on average; goalkeepers (GK) earn the least.
+- **Attribute relationship with positions**: 
 
 *(Add screenshots of key charts if possible!)*  
