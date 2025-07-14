@@ -60,7 +60,7 @@
 ## 🔍 Key Findings  
 *(Summarize your most interesting insights here. Example:)*  
 - **Top Club**: "Manchester City" has the most players (X), while "XYZ" has the fewest (Y).
-  ![Screenshot](images/screenshot.png)
+<img width="71" height="192" alt="Image" src="https://github.com/user-attachments/assets/7f441b78-d4e0-408b-8ba0-24c128b9863b" />
 - **Wage Disparity**: Player XYZ is underpaid (wage = €A, rating = B).  
 - **Physical Traits**: Taller players show a weak/moderate correlation (R² = X) with `overall_rating`.  
 - **Highest-Paid Position**: Strikers (ST) earn ~€X on average; goalkeepers (GK) earn the least.  
