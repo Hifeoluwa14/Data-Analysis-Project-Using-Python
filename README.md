@@ -1,8 +1,6 @@
 # FIFA 21 Player Data Analysis with Python  
 
-**Description**: A comprehensive data analysis project cleaning and exploring EA Sports' FIFA 21 player dataset to uncover insights about player attributes, wages, and performance metrics.  
-
----
+**Description**: A comprehensive data analysis project cleaning and exploring EA Sports' FIFA 21 player dataset to uncover insights about player attributes, wages, and performance metrics. 
 
 ## *Table of Contents*  
 - [Dataset Overview](#-dataset-overview)  
@@ -13,7 +11,8 @@
 - [Recommendations](#-recommendations)
 
 ##  Dataset Overview  
-- **Source**: [Kaggle](https://www.kaggle.com/)  
+- **Source**: [Kaggle](https://www.kaggle.com/)
+- **Files**: Attach to this repository is the csv raw file of fifa21 and notebook of analysis.
 - **Size**: 18,979 players × 77 attributes  
 - **Features**: Player positions, wages, market value, release clauses, overall_rating, potential, height, weight.
 
