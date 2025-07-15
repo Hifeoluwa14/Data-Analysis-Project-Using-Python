@@ -4,23 +4,22 @@
 
 ---
 
-##  Table of Contents  
+## *Table of Contents*  
 - [Dataset Overview](#-dataset-overview)  
 - [Key Questions](#-key-questions)  
-- [Process](#-process)  
-  - [Data Cleaning](#data-cleaning)  
-  - [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)  
+- [Process](#-process)
+- [Answers](#-answers)
 - [Key Findings](#-key-findings)  
----
+- [Recommendations](#-recommendations)
 
-## 📁 Dataset Overview  
+##  Dataset Overview  
 - **Source**: [Kaggle](https://www.kaggle.com/)  
 - **Size**: 18,979 players × 77 attributes  
 - **Features**: Player positions, wages, market value, release clauses, overall_rating, potential, height, weight.
 
 ---
 
-## Key Questions  
+##  Key Questions  
 1. Which team has the most players?
 2. Which team has the fewest players? 
 3. Which team has the youngest average age?
@@ -101,10 +100,26 @@
 - GK- There is strong correlation with diving, reactions, handling, gk positioning, gk reflexex, pace and shooting
 
 
-## 🔍 Key Observation  
-- **Most Valuable Player**: The most valuable player in this dataset is Mbappe.
-- **Wage Disparity**: There are couple of players with relatively high value that earn really little compare to thier counterpat.  
-- **Overall rating, value, wage**: The relationship between these variables is high.
-- **Best Team**: The nation with the top players based on overall rating is Spain.
-- **Highest-Paid Position**: Strikers (ST) earn most on average; goalkeepers (GK) earn the least.
-- **Attribute relationship with positions**: Reactions is an important attribute across all position for a player. For Goalkeepers diving, positioning, relexes are important attribute. For attackers (ST, CF, LW, RW) finishing, positioning, ball control are important attributes for overall rating. For Midfielders(CAM, CM, CDM, LM, RM) vision, ball control, positioning and passing are important attributes while for Defenders(CB, RB, LB, LWB, RWB) we could say passing, interceptions, standing tackle are important attributes. 
+## Key Observation  
+### 1. Most Valuable Player 
+- The most valuable player in this dataset is Mbappe with valuation of 105,500,000.
+### 2. Wage Disparity 
+- There are a few players with relatively high market value who earn significantly less compared to their counterparts.
+### 3. Overall rating, value, wage
+- There is a strong positive correlation.
+### 4. Nation with Top Players
+- The Spain happens to have a lot of top players 
+### 5. Highest-Paid Position
+- Strikers (ST) earn the most on average (23,444.87), while goalkeepers (GK) earn the least (6,390.81)
+### 6. Attribute relationship with positions
+- Reactions is an important attribute across all position for a player.
+- *Forwards (ST/LW/RW)*: Finishing, ball control, reactions.  
+- *Midfielders (CAM/CDM)*: Vision, passing, interceptions, ball control.  
+- *Defenders (CB/RB)*: Tackling, marking, positioning, interceptions.  
+- *Goalkeepers (GK)*: Reflexes, diving, handling, gk positioning.
+
+## *Recommendations*  
+1. **Clubs should also target Underpaid Players**: Players with high value but low wage—these could be cost-effective signings.  
+2. **Position-Specific Training**: Coaches should focus on key attributes for each role to maximize player performance.  
+3. **Negotiate Better Contracts**: Players with high overall_rating but below-average wages should leverage their market value in contract talks.
+4. **Clubs should invest in Young Talents**: Players with high potential but low wages can provide long-term value.  
