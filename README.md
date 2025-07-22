@@ -3,14 +3,14 @@
 **Description**: A comprehensive data analysis project cleaning and exploring EA Sports' FIFA 21 player dataset to uncover insights about player attributes, wages, and performance metrics. 
 
 ## *Table of Contents*  
-- [Dataset Overview](#-dataset-overview)  
-- [Key Questions](#-key-questions)  
-- [Process](#-process)
-- [Answers](#-answers)
-- [Key Findings](#-key-findings)  
-- [Recommendations](#-recommendations)
+- [Dataset Overview](#dataset-overview)
+- [Key Questions](#key-questions)  
+- [Process](#process)
+- [Answers](#answers)
+- [Key Findings](#key-findings)  
+- [Recommendations](#recommendations)
 
-##  Dataset Overview  
+## Dataset Overview
 - **Source**: [Kaggle](https://www.kaggle.com/)
 - **Files**: Attach to this repository is the csv raw file of fifa21 and notebook of analysis.
 - **Size**: 18,979 players × 77 attributes  
@@ -18,7 +18,7 @@
 
 ---
 
-##  Key Questions  
+## Key Questions  
 1. Which team has the most players?
 2. Which team has the fewest players? 
 3. Which team has the youngest average age?
