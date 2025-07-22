@@ -7,12 +7,12 @@
 - [Key Questions](#key-questions)  
 - [Process](#process)
 - [Answers](#answers)
-- [Key Findings](#key-findings)  
+- [Key Observation](#key-observation)  
 - [Recommendations](#recommendations)
 
 ## Dataset Overview
 - **Source**: [Kaggle](https://www.kaggle.com/)
-- **Files**: Attach to this repository is the csv raw file of fifa21 and notebook of analysis.
+- **Files**: Attach to this repository is the csv raw file of [fifa21]() and notebook of analysis.
 - **Size**: 18,979 players × 77 attributes  
 - **Features**: Player positions, wages, market value, release clauses, overall_rating, potential, height, weight.
 
