@@ -118,7 +118,7 @@
 - *Goalkeepers (GK)*: Reflexes, diving, handling, gk positioning.
 
 ## *Recommendations*  
-1. **Clubs should also target Underpaid Players**: Players with high value but low wage—these could be cost-effective signings.  
+1. **Clubs should target Underpaid Players**: Players with high value but low wage—these could be cost-effective signings.  
 2. **Position-Specific Training**: Coaches should focus on key attributes for each role to maximize player performance.  
 3. **Negotiate Better Contracts**: Players with high overall_rating but below-average wages should leverage their market value in contract talks.
 4. **Clubs should invest in Young Talents**: Players with high potential but low wages can provide long-term value.  
